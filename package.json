@@ -15,7 +15,10 @@
   ],
   "author": "killerk3emstar",
   "contributors": [
-    "Hannu Jaakkola"
+    {
+      "name": "Hannu Jaakkola",
+      "url": "https://github.com/hannujaakkola/rot26.git"
+    }
   ],
   "license": "ISC",
   "scripts": {
