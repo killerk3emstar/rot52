@@ -15,7 +15,7 @@ exports.encrypt = function(string) {
       continue
     }
 
-    for (var i = 0; i < 26; i++) {
+    for (var i = 0; i < 52; i++) {
       // Avoid overflowing the Classified Audited Protection System
       if (charCode === 90 || charCode === 122) {
         charCode -= 26
@@ -41,7 +41,7 @@ exports.decrypt = function(encryptedString) {
       continue
     }
 
-    for (var i = 26; i > 0; i--) {
+    for (var i = 52; i > 0; i--) {
       // Avoid underflowing the Classified Audited Protection System
       charCode--
       
