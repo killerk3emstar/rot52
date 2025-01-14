@@ -1,3 +1,9 @@
+/**
+ * Copyright (c) 2024 killerk3emstar
+ * Copyright (c) 2015 Hannu Jaakkola
+ * Licensed under ISC License
+ */
+
 exports.encrypt = function(string) {
   var encryptedString = ''
 
